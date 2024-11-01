@@ -1,0 +1,372 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --primary: #15473e;
+    --secondary: #f3f9eb;
+}
+
+/* Nav Section */
+.nav .nav-container{
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    
+}
+.logo h3{
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 32px;
+}
+#span{
+    color: #959698;
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #959698;
+    font-weight: 400;
+    font-size: 20px;
+}
+#hm{
+    color: var(--primary);
+}
+
+/* Hero Section */
+.hero-sctn .container{
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 50px;
+}
+/* .hero-msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} */
+.hero-msg h3{
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 50px;
+}
+.hero-msg p{
+    color: #111111;
+}
+.rc{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.rc button{
+    background-color: var(--primary);
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.rc a{
+    text-decoration: none;
+    color: var(--primary);
+}
+.hero-px{
+    position: relative;
+}
+.hero-px img{
+    height: 100px;
+    width: 362px;
+}
+#absolute{
+    position: absolute;
+    z-index: 1;
+    right: -30px;
+    bottom: 47px;
+}
+#absolute img{
+    height: 100px;
+    width: 240px;
+}
+
+/* About Section */
+.about{
+    background-color: #ffffff;
+    padding: 50px;
+}
+#cmpny{
+    display: flex;
+    justify-content: space-between;
+}
+#cmpny img{
+    height: 40px;
+}
+.about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.abt-msg h4{
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 36px;
+}
+.abt-img img{
+    height: 570px;
+    width: 500px;
+}
+.abt-msg button{
+    background-color: var(--primary);
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+/* Who Section */
+
+.who{
+    background-color: var(--primary);
+    color: var(--secondary);
+    text-align: center;
+    padding: 50px;
+}
+.who h4{
+    font-size: 32px;
+    font-weight: 600;
+}
+.who .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+.who .container div{
+    padding: 10px;
+}
+.who .container div h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+.who .container div a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+#who-img{
+    background: none;
+}
+.who button{
+    background-color: var(--secondary);
+    color: var(--primary);
+    margin-top: 5px;
+    padding: 10px 20px;
+}
+
+/* Ideas Section */
+.ideas .container{
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 50px;
+    
+}
+#idea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#idea h4{
+    font-size: 36px;
+    font-weight: 600;
+}
+#idea p{
+    font-size: 22px;
+    font-weight: 500;
+}
+#tools{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 20px 45px;
+}
+#tools div{
+    background-color: white;
+    padding: 20px;
+    align-items: start;
+    gap: 4px;
+}
+#tools div h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+#tools div p{
+    font-size: 20px;
+    font-weight: 400;
+}
+#sub-tools{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 45px;
+}
+#sub-tools div{
+    padding: 20px;
+}
+#sub-tools div h4{
+    font-size: 26px;
+    font-weight: 500;
+
+}
+#sub-tools div p{
+    font-size: 20px;
+    font-weight: 400;
+}
+#sub-tools a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+/* Testimonials Section */
+.Testimonials .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+.testi h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+.testi p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.testi button{
+    background-color: var(--primary);
+    color: var(--secondary);
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+.Tes-numbers{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.Tes-numbers div h4 a{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 40px;
+    font-weight: 600;
+}
+.Tes-numbers div p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* Middle Hero Section */
+.hero{
+    background: url(images/hero-img.jpeg) no-repeat center/cover;
+    height: 350px;
+}
+.hero .container{
+    padding: 20px;
+    text-align: center;
+}
+#hero-p{
+    color: var(--secondary);
+    font-size: 32px;
+    font-weight: 400;
+}
+.hero .container button{
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 10px 20px;
+}
+
+#head3{
+    text-align: center;
+    color: var(--primary);
+}
+img{
+    object-fit: cover;
+}
+.img-cl{
+    width: 30%;
+}
+.container1-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:10px 15px 10px 0;
+    gap: 1rem;
+    justify-content: space-around;
+}
+.container2-3{
+    display: flex;
+}
+.cont-1{
+    width: 50%;
+    margin-left: 80px;
+    padding-top: 20px;
+    color: var(--primary);
+}
+.form{
+    background-color: var(--primary);
+    color: var(--secondary);
+    width: 30%;
+    padding: 20px;
+    margin-right: 50px;
+}
+.name-cl{
+    display: flex;
+    margin-top: 30px;
+    /* justify-content:space-between ; */
+    gap: 1rem;
+}
+.fname{
+    height: 30px;
+    width: 55%;
+    margin-bottom: 10px;
+}
+.email{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.message{
+    height: 70px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.btn3{
+    margin-left: 40%;
+    height: 40px;
+}
+.footer{
+    background-color: var(--primary);
+}
+.foot{
+    display: flex;
+    background-color: var(--primary);
+    color: var(--secondary);
+    margin-top: 20px;
+    padding: 15px;
+
+}
+.foot-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 10px 50px;
+}
+.btn4{
+    margin-left: 30%;
+    margin-top: 10px;
+    height: 40px;
+}
